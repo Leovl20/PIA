@@ -32,24 +32,6 @@ body {
     border-radius: 50px;;
 
 }
-.tablamenu {
-    width: 100%;
-    border-collapse: collapse;
-}
-.tablamenu th, .tablamenu td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-}
-.tablamenu th {
-    background-color: #f4f4f4;
-}
-.imgmenu {
-    width: 100px; 
-    height: auto;
-    display: block; 
-    margin: 0 auto; 
-}
 .tabla1 {
     width: 25%;
     border-collapse: collapse; /* Une los bordes */
@@ -67,15 +49,30 @@ body {
     text-align: center; /* Centra el contenido */
     vertical-align: middle; /* Centra verticalmente el contenido */
 }
-
-.imglogo {
-    max-width: 100%;
-    height: auto; /* Ajusta la imagen automáticamente */
-}
-.boton4 {
-    background-color: greenyellow;
-    color: black;
-    border-radius: 50px;;
-
+.tabla2 {
+    width: 100%; /* La tabla ocupará todo el ancho disponible */
+    height: 100px; /* Altura fija para la tabla */
+    border-collapse: collapse; /* Une los bordes de las celdas */
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+    font-size: 40px; /* Ajusta el tamaño del texto */
+    margin-bottom: 20px; /* Añade espacio debajo de la tabla */
+    align-items: center;  
 }
 
+.tabla2 td, .tabla2 th {
+    border: 5px solid black; /* Agrega bordes a las celdas */
+    padding: 10px; /* Espaciado interno en las celdas */
+}
+.text1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+    font-size: 40px; /* Ajusta el tamaño del texto */
+}
+.text2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+    font-size: 30px; /* Ajusta el tamaño del texto */
+
+}
