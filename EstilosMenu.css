@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.boton {
+    background-color: purple;
+    color: black;
+    border-radius: 50px;;
+
+}
+.boton1 {
+    background-color: orange;
+    color: black;
+    border-radius: 50px;;
+
+}
+.boton2 {
+    background-color: green;
+    color: black;
+    border-radius: 50px;;
+
+}
+.boton3 {
+    background-color: aqua;
+    color: black;
+    border-radius: 50px;;
+
+}
+.tabla {
+    width: 25%; /* La tabla ocupará todo el ancho de la página */
+    height: 100%; /* Ajusta la altura según el contenido */
+    border: 5px solid black; /* Estilo del borde */
+    border-collapse: collapse; /* Evita espacio entre celdas */
+    position: relative; /* Permite posicionar la tabla */
+    top: 0px; /* Ajusta la posición de la tabla desde la parte superior */
+    left: 0px; /* La tabla estará pegada a la izquierda */
+}
+
+.tabla td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #002b5c; /* Borde inferior para las filas */
+}
+.imglogo{
+    width: 75px;
+    height: 100px;
+}
+/* Estilo para la tabla2 (encabezado o tabla superior) */
+.tabla2 {
+    width: 100%; /* Ajusta el ancho de la tabla */
+    border: 2px solid #002b5c; /* Borde de la tabla */
+    border-collapse: collapse; /* Evita el espacio entre celdas */
+    margin-top: 20px; /* Ajusta el margen superior de la tabla */
+    margin-bottom: 20px; /* Añade espacio debajo de la tabla para separarla de la tabla de menú */
+}
+
+.tabla2 td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #002b5c; /* Borde de las celdas */
+}
+
+.tabla2 tr:hover {
+    background-color: #ddd; /* Efecto hover en las filas */
+}
+
+/* Estilo para la tabla de menú (debajo de la tabla2) */
+.menu {
+    width: 80%; /* Ajusta el ancho de la tabla */
+    border: 2px solid #333; /* Borde de la tabla */
+    border-collapse: collapse; /* Elimina el espacio entre celdas */
+    margin-top: 20px; /* Ajusta el margen superior de la tabla */
+    margin-left: 10%; /* Desplaza la tabla hacia la derecha */
+}
+
+.menu th, .menu td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
